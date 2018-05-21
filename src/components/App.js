@@ -31,7 +31,6 @@ class App extends React.Component{
   }
 
   handleFilterChange = (event) => {
-console.log(event.target.value)
     this.setState({ currentFilter: event.target.value });
   }
 
